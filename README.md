@@ -1,8 +1,8 @@
-# Frogger type clone*
+# Frogger type clone
 
 ## How to run
-*Download the _Repository_
-*Open the ``index.html`` file.
+* Download the _Repository_
+* Open the ``index.html`` file.
 
 ## How to play
 
