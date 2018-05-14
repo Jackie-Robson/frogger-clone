@@ -12,7 +12,7 @@ var Enemy = function(x, y, speed) {
     this.height = 30;
     this.width = 30;
     this.MoveSpeed = getRandomArbitrary(100, speed);
-    this.sprite = 'images/enemy-bug.png';
+    this.sprite = 'images/cookie.png';
 
 };
 
@@ -52,7 +52,7 @@ var Player = function(x, y) {
     this.y = y;
     this.width = 20;
     this.height = 40;
-    this.sprite = 'images/char-princess-girl.png';
+    this.sprite = 'images/gnome.png';
 };
 
 
@@ -60,7 +60,7 @@ var Player = function(x, y) {
 Player.prototype.update = function(dt) {
     // Alerts the player when they win or lose
     if (this.y <= 30) {
-        alert('You did it!');
+        alert('You avoided the cookies!');
         document.location.reload();
         console.log('You Won!');
     }

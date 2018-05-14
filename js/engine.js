@@ -97,7 +97,7 @@ var Engine = (function(global) {
                 player.y < enemy.y + enemy.height &&
                 player.height + player.y > enemy.y) {
                 player.x = enemy.x;
-                alert('You were carried away!');
+                alert('You were hit by a rogue cookie');
                 document.location.reload();
                 console.log('You lose');
 
@@ -183,7 +183,8 @@ var Engine = (function(global) {
         'images/grass-block.png',
         'images/enemy-bug.png',
         'images/char-boy.png',
-        'images/char-princess-girl.png'
+        'images/gnome.png',
+        'images/cookie.png'
     ]);
     Resources.onReady(init);
 
